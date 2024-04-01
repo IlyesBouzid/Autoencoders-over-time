@@ -13,6 +13,10 @@ Four types of datasets are used to train and test the model. These datasets, pub
 - **UD3**: Unlike the previous dataset, this one contains seasonality. The anomalies are inserted at random points, marking the change points. On average, 0.3% of the dataset is anomalous.
 - **UD4**: This dataset differs from the previous one in that it also contains changepoint anomalies where the mean of the time series changes. For our evaluation, we focus on the main anomalous points and do not distinguish between types of anomalies. On average, 0.5% of the dataset is anomalous. The values of timestamps in UD3 and UD4 are the sum of the noise, trend, and three types of seasonality (half-day, daily, and weekly).
 
+## Citation
+
+Braei, M., & Wagner, S. (2020, April 1). Anomaly Detection in Univariate Time-series: A Survey on the State-of-the-Art. arXiv.org. https://arxiv.org/abs/2004.00433
+
 ## Contact
 
 Ilyes Bouzid – www.linkedin.com/in/ilyes-bouzid
